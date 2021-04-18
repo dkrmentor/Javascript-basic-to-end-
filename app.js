@@ -1426,3 +1426,74 @@
 
 // }
 
+
+// --------------------class 12-------------------- (ch 72 to 75 )
+// var s1 = {
+//     name:"Dhara",
+//     roll:123
+// }
+// var s2 = {
+//     name:"aeaasd",
+//     roll:223
+// }
+
+//constructor
+// function Student(name,roll){
+//     this.name=name;
+//     this.roll=roll;
+//     this.getName = function(){
+//         return this.name;
+//     }
+// }
+// var stu1 = new Student("dhara",123);
+// var stu2 = new Student("ara",223);
+// console/console.log((stu1.getName()));
+// console/console.log((stu2.getName()));
+
+//prototype use for avoid repeation in the function which we have create within constructor
+// function Student(name,roll){
+//     this.name=name;
+//     this.roll=roll;
+//     Student.prototype.getName = function(){
+//         return this.name;
+//     }
+// }
+// var stu1 = new Student("dhara",123);
+// var stu2 = new Student("ara",223);
+// console/console.log((stu1.getName()));
+// console/console.log((stu2.getName()));
+
+
+// var s2 = {
+//     name:"aeaasd",
+//     roll:223
+// }
+// console.log("roll" in s2)
+// console.log("age" in s2)
+
+// var s2 = {
+//     name:"RADHA",
+//     roll:223,
+//     age:21,    
+// }
+// console.log('roll' in s2)
+// console.log(s2.hasOwnProperty("roll"))
+
+// var s2 = {
+//     name:"RADHA",
+//     roll:223,
+//     age:21,
+    
+// }
+// for(var prop in s2){
+//     console.log(prop)
+// }
+// for(var prop in s2){
+//     console.log(s2[prop])
+// }
+
+// for(var prop in s2){
+//     console.log(prop,s2[prop])
+// }
+
+
